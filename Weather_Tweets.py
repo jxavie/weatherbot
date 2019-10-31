@@ -19,17 +19,6 @@ access_token = os.environ.get("access_token")
 access_token_secret = os.environ.get("access_token_secret")
 weather_api_key = os.environ.get("weather_key")
 
-
-# In[ ]:
-
-
-# Twitter API Keys
-consumer_key = consumer_key
-consumer_secret = consumer_secret
-access_token = access_token
-access_token_secret = access_token_secret
-
-
 # In[ ]:
 
 
