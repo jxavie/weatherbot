@@ -11,6 +11,7 @@ import json
 import random
 import requests as req
 import datetime
+import os
 
 consumer_key = os.environ.get("consumer_key")
 consumer_secret = os.environ.get("consumer_secret")
