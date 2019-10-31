@@ -42,7 +42,8 @@ def WeatherTweet():
     api = tweepy.API(auth, parser=tweepy.parsers.JSONParser())
 
     # Tweet the weather
-    api.update_status(f"Current temperature in {city}: {temp}F")
+    current_time = now.strftime("%H:%M:%S")
+    api.update_status(f"Current temperature in {city}: {temp}F ({current_time})")
 
     # Print success message
     print('Weather tweet posted')
