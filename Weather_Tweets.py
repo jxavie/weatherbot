@@ -17,7 +17,7 @@ consumer_key = os.environ.get("consumer_key")
 consumer_secret = os.environ.get("consumer_secret")
 access_token = os.environ.get("access_token")
 access_token_secret = os.environ.get("access_token_secret")
-weather_api_key = os.environ.get("weather_key")
+weather_key = os.environ.get("weather_key")
 
 # In[ ]:
 
