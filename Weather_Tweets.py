@@ -19,15 +19,6 @@ access_token = os.environ.get("access_token")
 access_token_secret = os.environ.get("access_token_secret")
 weather_key = os.environ.get("weather_key")
 
-# In[ ]:
-
-
-# Weather API Key
-url = "http://api.openweathermap.org/data/2.5/weather?"
-city = "Washington, D.C."
-units = "imperial"
-query_url = url + "appid=" + weather_key + "&q=" + city + "&units=" + units
-
 
 # In[ ]:
 
